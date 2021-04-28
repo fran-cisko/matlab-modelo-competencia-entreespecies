@@ -5,13 +5,13 @@ syms N1 N2
 [x, y]=solve('0.3*N1*(30-N1-N2)/30=0','0.2*N2*(50-N2-2*N1)/50=0')
 
 
-%ISOCLINAS busco la ecuación de una recta depejando N2 para graficar
+%ISOCLINAS. busco la ecuaciï¿½n de una recta depejando N2 para graficar
 %convenientemente
 solve('0.3*N1*(30-N1-N2)/30','N2')
 %ans =30 - N1
 solve('0.2*N2*(50-N2-2*N1)/50','N2')
 % 50 - 2*N1
-%Aquí agregué el despejando N1
+%Aquï¿½ agreguï¿½ el despejando N1
 solve('0.3*N1*(30-N1-N2)/30','N1')% 30 - N2
 solve('0.2*N2*(50-N2-2*N1)/50','N1') %  25 - N2/2
  
@@ -211,8 +211,8 @@ axis([0 355 0 255])
 %%%%%%%%%%%
 %1.f
 %Dibujo isoclinas para agregar contexto a la trayectoria. En N1=20 y N2=10
-%el sistema no se desvía a su capacidad de carga. Sin embargo en general
-%prevalece una población a otra
+%el sistema no se desvï¿½a a su capacidad de carga. Sin embargo en general
+%prevalece una poblaciï¿½n a otra
 hold on
 x=(0:1:30); 
 y1=30-x; %N1=x isoclina de la especie 1
