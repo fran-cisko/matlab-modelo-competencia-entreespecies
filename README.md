@@ -1,7 +1,5 @@
 # Modelado de un sistema de competencia entre dos especies.
 
-
-Introducción:
 El siguiente sistema modela la competencia entre dos especies de ácaros depredadores de colémbolos:
 ```latex
 $\frac{dN_1}{dt}=\frac{0.3N_1(30-N_1-N_2)}{30}$
